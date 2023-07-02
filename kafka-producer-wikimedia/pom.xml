@@ -20,4 +20,37 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <!--Create an Event Source to read the real time event data from wikimedia-->
+        <!--https://mvnrepository.com/artifact/com.launchdarkly/okhttp-eventsource/2.5.0 -->
+        <dependency>
+            <groupId>com.launchdarkly</groupId>
+            <artifactId>okhttp-eventsource</artifactId>
+            <version>2.5.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>4.9.0</version>
+        </dependency>
+
+
+        <!-- The Jackson Dependencies is used to deal with JSON data-->
+
+        <!--https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.2-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.15.2</version>
+        </dependency>
+
+        <!--https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.15.2-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.2</version>
+        </dependency>
+
+    </dependencies>
 </project>

@@ -1,4 +1,4 @@
-package com.m2p.wikimediaproducer.Changehandler;
+package com.m2p.wikimediaproducer.changehandler;
 
 import com.launchdarkly.eventsource.EventHandler;
 

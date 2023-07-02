@@ -1,7 +1,7 @@
 package com.m2p.wikimediaproducer.producer;
 import com.launchdarkly.eventsource.EventHandler;
 import com.launchdarkly.eventsource.EventSource;
-import com.m2p.wikimediaproducer.Changehandler.WikiMediaChangeHandler;
+import com.m2p.wikimediaproducer.changehandler.WikiMediaChangeHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
